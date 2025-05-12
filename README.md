@@ -48,11 +48,11 @@ Before you begin, make sure you have the following installed:
    ```
 
 2. Access the Flask app in your web browser:
-
+   
    - Frontend: http://localhost
    - Backend: http://localhost:5000
 
-3. Create the `messages` table in your MySQL database:
+4. Create the `messages` table in your MySQL database:
 
    - Use a MySQL client or tool (e.g., phpMyAdmin) to execute the following SQL commands:
    
@@ -63,7 +63,7 @@ Before you begin, make sure you have the following installed:
      );
      ```
 
-4. Interact with the app:
+5. Interact with the app:
 
    - Visit http://localhost to see the frontend. You can submit new messages using the form.
    - Visit http://localhost:5000/insert_sql to insert a message directly into the `messages` table via an SQL query.
